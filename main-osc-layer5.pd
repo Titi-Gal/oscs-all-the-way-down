@@ -1,0 +1,22 @@
+#N canvas 577 292 288 256 12;
+#X obj 91 83 s freq;
+#X obj 148 83 s amp;
+#X msg 91 53 100;
+#X msg 148 53 1;
+#X obj 90 193 *~;
+#X obj 133 175 vsl 15 64 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X obj 90 223 dac~;
+#X obj 91 113 r freq;
+#X obj 148 113 r amp;
+#X obj 91 143 osc-layer5;
+#X text 9 9 5th layers doesn't work because of some limitation of pd's
+clone object, f 37;
+#X connect 2 0 0 0;
+#X connect 3 0 1 0;
+#X connect 4 0 6 0;
+#X connect 4 0 6 1;
+#X connect 5 0 4 1;
+#X connect 7 0 9 0;
+#X connect 8 0 9 1;
+#X connect 9 0 4 0;
