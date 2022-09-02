@@ -5,9 +5,13 @@
  On the main file you will encouter:
 
  osc -                    1 partial
+ 
  saw tooth -          8 ^ 1 partials
+ 
  sawsaw tooth -       8 ^ 2 partials
+ 
  sawsawsaw tooth -    8 ^ 3 partials
+ 
  sawsawsawsaw tooth - 8 ^ 4 partials
 
  sawsawsawsawsaw tooth is in the main-osc-layer5 file and doesn't play correctly
